@@ -1,0 +1,27 @@
+.btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 25px;
+  width: 30px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.btnOne {
+  margin-left: -36px;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.buttonLine {
+  width: 25px;
+  height: 2px;
+
+  background: white;
+}

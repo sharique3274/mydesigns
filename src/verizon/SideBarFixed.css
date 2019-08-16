@@ -1,0 +1,25 @@
+.side-drawer1 {
+  height: 100%;
+  background: black;
+  position: fixed;
+  top: 90px;
+  left: 0;
+  width: 60px;
+  z-index: 300;
+}
+
+.side-drawer1 ul {
+  height: 100%;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+.side-drawer1 li {
+  margin: 0.5rem;
+}
+.side-drawer1 a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+}

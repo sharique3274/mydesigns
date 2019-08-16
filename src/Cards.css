@@ -1,0 +1,20 @@
+.cardLayout {
+  width: 230px;
+  /* background-color: red;
+  background-image: linear-gradient(rgb(235, 217, 217), black);
+  border: 1px solid black; */
+  box-shadow: 10px 10px 8px 10px #888888;
+}
+.img1:hover {
+  background-color: rgb(21, 21, 24);
+  transition: 0.6s;
+  background-image: linear-gradient(rgb(212, 28, 28), yellow);
+  transform: rotate(-10deg) scale(1.3);
+  box-shadow: 10px 10px 8px 10px #888888;
+  opacity: 0.9;
+  cursor: pointer;
+}
+.img1:active {
+  box-shadow: 3px 3px 3px 6px #888888;
+  transform: rotate(0deg) scale(1.1);
+}
